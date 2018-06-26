@@ -5,7 +5,7 @@
 # What to do
 sign=false
 verify=false
-build=false
+build=true
 setupenv=false
 
 # Systems to build
