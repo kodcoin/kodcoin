@@ -20,12 +20,12 @@ commit=false
 url=https://github.com/kech1004/kodcoin.git
 proc=2
 mem=2000
-lxc=true
+lxc=false
 osslTarUrl=http://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz
 osslPatchUrl=https://bitcoincore.org/cfields/osslsigncode-Backports-to-1.7.1.patch
 scriptName=$(basename -- "$0")
 signProg="gpg --detach-sign"
-commitFiles=true
+commitFiles=false
 
 # Help Message
 read -d '' usage <<- EOF
