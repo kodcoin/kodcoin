@@ -1,0 +1,26 @@
+[Unit]
+Description=Kodcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=Kodcoin
+Group=Kodcoin
+
+Type=forking
+PIDFile=/var/lib/Kodcoind/Kodcoind.pid
+
+ExecStart=/usr/bin/Kodcoind -daemon -pid=/var/lib/Kodcoind/Kodcoind.pid \
+          -conf=/etc/Kodcoin/Kodcoin.conf -datadir=/var/lib/Kodcoind
+
+ExecStop=-/usr/bin/Kodcoin-cli -conf=/etc/Kodcoin/Kodcoin.conf \
+         -datadir=/var/lib/Kodcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+# /etc/conf.d/Kodcoind: config file for /etc/init.d/Kodcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/Kodcoin/Kodcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/Kodcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Kodcoind.pid"
+
+# Where to write Kodcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/Kodcoind"
+
+# User and group to own Kodcoind process
+#BITCOIND_USER="Kodcoin"
+#BITCOIND_GROUP="Kodcoin"
+
+# Path to Kodcoind executable
+#BITCOIND_BIN="/usr/bin/Kodcoind"
+
+# Nice value to run Kodcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

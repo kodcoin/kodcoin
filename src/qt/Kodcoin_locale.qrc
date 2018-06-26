@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/Kodcoin_bg.qm</file>
+        <file alias="ca">locale/Kodcoin_ca.qm</file>
+        <file alias="cs">locale/Kodcoin_cs.qm</file>
+        <file alias="da">locale/Kodcoin_da.qm</file>
+        <file alias="de">locale/Kodcoin_de.qm</file>
+        <file alias="en">locale/Kodcoin_en.qm</file>
+        <file alias="en_US">locale/Kodcoin_en_US.qm</file>
+        <file alias="es">locale/Kodcoin_es.qm</file>
+        <file alias="fi">locale/Kodcoin_fi.qm</file>
+        <file alias="fr_FR">locale/Kodcoin_fr_FR.qm</file>
+        <file alias="hr">locale/Kodcoin_hr.qm</file>
+        <file alias="it">locale/Kodcoin_it.qm</file>
+        <file alias="ja">locale/Kodcoin_ja.qm</file>
+        <file alias="ko_KR">locale/Kodcoin_ko_KR.qm</file>
+        <file alias="nl">locale/Kodcoin_nl.qm</file>
+        <file alias="pl">locale/Kodcoin_pl.qm</file>
+        <file alias="pt">locale/Kodcoin_pt.qm</file>
+        <file alias="pt_BR">locale/Kodcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Kodcoin_ro_RO.qm</file>
+        <file alias="ru">locale/Kodcoin_ru.qm</file>
+        <file alias="sk">locale/Kodcoin_sk.qm</file>
+        <file alias="sv">locale/Kodcoin_sv.qm</file>
+        <file alias="tr">locale/Kodcoin_tr.qm</file>
+        <file alias="uk">locale/Kodcoin_uk.qm</file>
+        <file alias="zh_CN">locale/Kodcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Kodcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

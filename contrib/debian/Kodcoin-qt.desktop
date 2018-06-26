@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Kodcoin
+Comment=Kodcoin P2P Cryptocurrency
+Comment[fr]=Kodcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Kodcoin, eşten eşe kriptografik sanal para birimi
+Exec=Kodcoin-qt %u
+Terminal=false
+Type=Application
+Icon=Kodcoin128
+MimeType=x-scheme-handler/Kodcoin;
+Categories=Office;Finance;
