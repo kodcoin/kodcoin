@@ -11,13 +11,13 @@ setupenv=false
 # Systems to build
 linux=true
 windows=true
-osx=true
+osx=false
 
 # Other Basic variables
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/kech1004/kodcoin
+url=https://github.com/kech1004/kodcoin.git
 proc=2
 mem=2000
 lxc=true
