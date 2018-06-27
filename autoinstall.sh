@@ -1,15 +1,15 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='Kcoin.conf'
-CONFIGFOLDER='/root/.Kcoin'
-COIN_DAEMON='Kcoind'
-COIN_CLI='Kcoin-cli'
+CONFIG_FILE='Kcodoin.conf'
+CONFIGFOLDER='/root/.Kodcoin'
+COIN_DAEMON='Kodcoind'
+COIN_CLI='Kodcoin-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/kech1004/Kcoins.git'
+COIN_REPO='https://github.com/kech1004/Kodcoins.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Kcoin'
+COIN_NAME='Kodcoin'
 COIN_PORT=7867
 RPC_PORT=7857
 
