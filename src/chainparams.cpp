@@ -162,13 +162,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xf7d19f5db6c770445b2a11691c345b62c92c9e2822480c1badbc992e4b92e920"));
 		
 		vSeeds.push_back(CDNSSeedData("seeds.kodcoin.org", "seeds.kodcoin.org")); // Seeder
-        vSeeds.push_back(CDNSSeedData("209.250.241.176", "209.250.241.176"));     // Single node address
-        vSeeds.push_back(CDNSSeedData("209.250.243.131", "209.250.243.131"));     // Single node address
-        vSeeds.push_back(CDNSSeedData("45.77.239.108", "45.77.239.108"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("45.32.235.211", "45.32.235.211"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("107.191.44.102", "107.191.44.102"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("199.247.31.88", "199.247.31.88"));     // Single node address
+        vSeeds.push_back(CDNSSeedData("45.76.104.62", "45.76.104.62"));     // Single node address
+        vSeeds.push_back(CDNSSeedData("149.28.131.42", "149.28.131.42"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("45.77.230.107", "45.77.230.107"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("104.238.148.58", "104.238.148.58"));       // Single node address
 		vSeeds.push_back(CDNSSeedData("108.61.188.67", "108.61.188.67"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("45.77.1.151", "45.77.1.151"));             // Block Explorer
+		//vSeeds.push_back(CDNSSeedData("45.77.1.151", "45.77.1.151"));             // Block Explorer
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
@@ -192,7 +192,7 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04d45416e4a64b1b051e2a2ebd80ced5efe148cf5fbcb70e56860957675a2da1a21fd522c42c1ed18a1ec42641589a09cf3f58678d213825dc21798183a005a984";
-        strObfuscationPoolDummyAddress = "RhenEXjDK5AiCAq4hofpBz2dqawfnEsPem";
+        strObfuscationPoolDummyAddress = "R9cNafZm85Q6FxgcHTr5mwfioJPPLxWPMy";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
