@@ -32,4 +32,4 @@ More information at [Kodcoin.org](http://www.Kodcoin.org)
 <tr><td>Wallet Staking</td><td>Yes -10% of each block</td></tr>
 </table>
 
-More detailed information can be found in our [Whitepaper](http://kodcoin.org/Kodcoinwhitepaper.pdf)
+More detailed information can be found in our [Whitepaper](http://kodcoin.org/)
