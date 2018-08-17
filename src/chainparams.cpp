@@ -164,7 +164,7 @@ public:
 		vSeeds.push_back(CDNSSeedData("seeds.kodcoin.org", "seeds.kodcoin.org")); // Seeder
         vSeeds.push_back(CDNSSeedData("199.247.31.88", "199.247.31.88"));     // Single node address
         vSeeds.push_back(CDNSSeedData("45.76.104.62", "45.76.104.62"));     // Single node address
-        vSeeds.push_back(CDNSSeedData("207.148.109.12", "207.148.109.12"));         // Single node address
+        vSeeds.push_back(CDNSSeedData( " 149.28.131.42 " , " 149.28.131.42 " ));           // Single node address
 		vSeeds.push_back(CDNSSeedData("45.77.230.107", "45.77.230.107"));         // Single node address
 		vSeeds.push_back(CDNSSeedData("104.238.148.58", "104.238.148.58"));       // Single node address
 		vSeeds.push_back(CDNSSeedData("108.61.188.67", "108.61.188.67"));         // Single node address
