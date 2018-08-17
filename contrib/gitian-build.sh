@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/Kodcoinproject/gitian.sigs.git
-    git clone https://github.com/Kodcoinproject/Kodcoin-detached-sigs.git
+    git clone https://github.com/kech1004/gitian.sigs.git
+    git clone https://github.com/kech1004/Kodcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
