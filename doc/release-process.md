@@ -23,10 +23,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/eastcoastcrypto/gitian.sigs.git
-    git clone https://github.com/eastcoastcrypto/Kodcoin-detached-sigs.git
+    git clone https://github.com/kech1004/gitian.sigs.git
+    git clone https://github.com/kech1004/Kodcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/eastcoastcrypto/Kodcoin.git
+    git clone https://github.com/kech1004/Kodcoin.git
 
 ### Kodcoin maintainers/release engineers, suggestion for writing release notes
 
