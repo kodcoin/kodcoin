@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./Kodcoin
+pushd ./kodcoin
 git fetch
 git checkout ${COMMIT}
 popd
