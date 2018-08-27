@@ -29,7 +29,7 @@ More information at [Kodcoin.org](http://www.Kodcoin.org)
 ### Masternodes/Staking
 <table>
 <tr><td>Masternodes</td><td>Yes - 10k KOD Required, 80% of each block</td></tr>
-<tr><td>Wallet Staking</td><td>Yes -10% of each block</td></tr>
+<tr><td>Wallet Staking</td><td>Yes -20% of each block</td></tr>
 </table>
 
 More detailed information can be found in our [Whitepaper](http://kodcoin.org/)
