@@ -273,7 +273,7 @@ function important_information() {
  echo -e "VPS_IP:PORT ${RED}$NODEIP:$COIN_PORT${NC}"
  echo -e "MASTERNODE PRIVATEKEY is: ${RED}$COINKEY${NC}"
  echo -e "Please check ${RED}$COIN_NAME${NC} is running with the following command: ${RED}systemctl status $COIN_NAME.service${NC}"
- echo -e "================================================================================================================================"
+ echo -e "===================Go to the moon ============================================================================================================="
 }
 
 function setup_node() {
