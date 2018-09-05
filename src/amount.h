@@ -13,7 +13,7 @@
 
 typedef int64_t CAmount;
 
-static const CAmount COIN = 190000000;
+static const CAmount COIN = 100000000;
 static const CAmount CENT = 10000000;
 static const CAmount ZCENT = 1000000;
 
