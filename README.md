@@ -14,7 +14,7 @@ More information at [Kodcoin.org](http://www.Kodcoin.org)
 <tr><td>Type</td><td>PoW - PoS Hybrid*</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS)</td><td>32,258,830 coins then infinite  after block 500,000</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>32,258,830 coins then infinite  ater block 500,000</td></tr>
 <tr><td>Premine/Initial Supply</td><td>200000</td></tr>
 </table>
 
