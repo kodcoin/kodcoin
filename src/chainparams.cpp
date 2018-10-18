@@ -161,13 +161,13 @@ public:
         assert(hashGenesisBlock == uint256("0x73e54cf335c4ee101f0edf36950853ef2e9e04ff4c7362b4eff07faab561d336"));
         assert(genesis.hashMerkleRoot == uint256("0xf7d19f5db6c770445b2a11691c345b62c92c9e2822480c1badbc992e4b92e920"));
 		
-		vSeeds.push_back(CDNSSeedData("seeds.kodcoin.org", "seeds.kodcoin.org")); // Seeder
-        vSeeds.push_back(CDNSSeedData("199.247.31.88", "199.247.31.88"));     // Single node address
-        vSeeds.push_back(CDNSSeedData("45.76.104.62", "45.76.104.62"));     // Single node address
-        vSeeds.push_back(CDNSSeedData( " 149.28.131.42 " , " 149.28.131.42 " ));           // Single node address
+		vSeeds.push_back(CDNSSeedData("wallet.kodcoin.org", "wallet.kodcoin.org")); // Seeder
+        vSeeds.push_back(CDNSSeedData("45.32.255.196", "45.32.255.196"));     // Single node address
+        vSeeds.push_back(CDNSSeedData("66.42.37.189", "66.42.37.189"));     // Single node address
+        vSeeds.push_back(CDNSSeedData( "198.13.39.109 " , "198.13.39.109" ));           // Single node address
 		vSeeds.push_back(CDNSSeedData("45.77.230.107", "45.77.230.107"));         // Single node address
-		vSeeds.push_back(CDNSSeedData("104.238.148.58", "104.238.148.58"));       // Single node address
-		vSeeds.push_back(CDNSSeedData("108.61.188.67", "108.61.188.67"));         // Single node address
+		vSeeds.push_back(CDNSSeedData("45.32.58.183", "45.32.58.183"));       // Single node address
+		vSeeds.push_back(CDNSSeedData("107.191.61.125", "107.191.61.125"));         // Single node address
 		//vSeeds.push_back(CDNSSeedData("45.77.1.151", "45.77.1.151"));             // Block Explorer
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 60);
