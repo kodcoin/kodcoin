@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='Kcodoin.conf'
+CONFIG_FILE='Kodoin.conf'
 CONFIGFOLDER='/root/.Kodcoin'
 COIN_DAEMON='Kodcoind'
 COIN_CLI='Kodcoin-cli'
